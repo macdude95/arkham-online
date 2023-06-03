@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../server/src/routes/index.ts"],
+  "sourcesContent": ["import express from 'express';\nimport { cardsRoute } from './cards';\n\nexport const routes = express.Router();\n\nroutes.use(cardsRoute);\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,qBAAoB;AACpB,mBAA2B;AAEpB,MAAM,SAAS,eAAAA,QAAQ,OAAO;AAErC,OAAO,IAAI,uBAAU;",
+  "names": ["express"]
+}
