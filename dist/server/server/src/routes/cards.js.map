@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../server/src/routes/cards.ts"],
-  "sourcesContent": ["import { Router } from 'express';\n\nexport const cardsRoute = Router();\n\ncardsRoute.get('/all', (req, res) => {\n  res.send({ message: 'Hello API cards' }); // TODO: Set up an API request that can get all cards into one massive json blob (might be too big, but it's the simples so we should at least try it)\n});\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,qBAAuB;AAEhB,MAAM,iBAAa,uBAAO;AAEjC,WAAW,IAAI,QAAQ,CAAC,KAAK,QAAQ;AACnC,MAAI,KAAK,EAAE,SAAS,kBAAkB,CAAC;AACzC,CAAC;",
-  "names": []
-}

@@ -5,8 +5,9 @@ import Game from './play/game/game';
 
 export function App() {
   return (
-    <div>
+    <div className={styles['container']}>
       <Game />
+      <h1>test</h1>
     </div>
   );
 }
